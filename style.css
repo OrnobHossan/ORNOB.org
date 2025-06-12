@@ -1,0 +1,95 @@
+*{
+   margin: 0;
+   padding: 0;   
+   box-sizing: border-box;
+}
+
+body{
+   height: 100vh;
+   align-content: center;
+   background:url('images/summer.jpg') no-repeat center center / cover;
+   background-blend-mode:multiply;
+
+}
+
+.camera{
+   height: 500px;
+   width: 500px;
+   margin: auto;
+   border: 20px solid #123456; 
+   border-radius:30% 30%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column-reverse;
+   transition: .5s;
+}
+
+.camera > div:nth-of-type(2){
+   height: 70%;
+   text-align: center;
+}
+
+.camera > div:nth-of-type(1){
+   height: 30%;
+   background: #123123;
+   text-align: center;
+}
+
+.top .season {
+   text-transform: uppercase;
+   display: flex;
+   justify-content: space-evenly;   
+   font-size:1rem ;
+   padding: 5px 15px 0 ;
+}
+
+.top .season i {
+   background:#123456;
+   border: 3px inset aqua;
+   padding: 5px 1rem;
+   border-radius: 1rem;
+   color: aqua;
+   text-align: center;
+   transition: .6s;
+}
+.top .season i:hover {
+   border: 3px outset aqua;   
+}
+
+.top .season span{
+    border: 3px solid #000;
+   padding: 5px 1rem;
+   border-radius: 1rem;
+   color: aqua;
+   font: 1rem var(--Cinzel-Decorative) ;
+   background: #123456;
+   border: 0;
+   font-weight: bolder;
+   word-spacing: 10px;
+     
+}
+
+
+
+.bottom {
+   background-image: url('images/summer.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   transition: .5s;
+}
+
+.text{
+   width:300px;
+   margin: auto;
+   padding: 8px 8px 0;
+   font: 1rem var(--Atomic-Age);
+   color: aqua;
+   transition: 1s;
+}
+
+
+
+
+
+
